@@ -149,3 +149,25 @@ footer {
   border-color: #D9D9D9;
   color: #D9D9D9;
 }
+
+.contenedor-sobre_nosotros {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-principal {
+  flex-basis: 75%;
+  display: flex;
+}
+
+.contenedor-texto h2 {  
+  color: #003366;
+}
+
+.contenedor-principal img {
+  border-radius: 3rem;
+}
+
+.contendor-img {
+  padding: 4rem;
+}
