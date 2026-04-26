@@ -255,49 +255,58 @@
   <!--Fin Cobertura-->
 
   <!--Inicio contacto-->
-  <p>Contacto</p>
+  <article class="article-contacto">
+    <section class="section-contacto">
+      <div class="contenedor-izquierdo-contacto">
+        <p class="texto-amarillo">Contacto</p>
 
-  <h2>Solicita una cotización</h2>
+        <h2>Solicita una cotización</h2>
 
-  <p>
-    Completa el formulario y cuéntanos qué tipo de servicio necesita tu
-    empresa.
-  </p>
+        <p>
+          Completa el formulario y cuéntanos qué tipo de servicio necesita tu
+          empresa.
+        </p>
+        <div class="contenedor-mini-contacto">
+          <p><strong>Teléfono:</strong> (+56) 9 8835 5559</p>
+          <p><strong>Email:</strong> Empresas.higiene.eirp@gmail.com</p>
+          <p><strong>Dirección:</strong> José Antonio Aldunate 2811, Arica</p>
+        </div>
+      </div>
 
-  <p><strong>Teléfono:</strong> (+56) 9 8835 5559</p>
-  <p><strong>Email:</strong> Empresas.higiene.eirp@gmail.com</p>
-  <p><strong>Dirección:</strong> José Antonio Aldunate 2811, Arica</p>
+      <div class="contenedor-derecho-contacto">
+          <form>
+            <!--<h3>Datos de contacto</h3> (no esta dentro del word)-->
 
-  <form>
-    <h3>Datos de contacto</h3>
+            <div class="card-contacto">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" type="text" placeholder="Ingresa tu nombre" />
+            </div>
 
-    <div>
-      <label for="nombre">Nombre</label>
-      <input id="nombre" type="text" placeholder="Ingresa tu nombre" />
-    </div>
+            <div class="card-contacto">
+              <label for="empresa">Empresa</label>
+              <input type="text" placeholder="Nombre de la empresa" />
+            </div>
 
-    <div>
-      <label for="empresa">Empresa</label>
-      <input type="text" placeholder="Nombre de la empresa" />
-    </div>
+            <div class="card-contacto">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" placeholder="Ej: +56 9 1234 5678" />
+            </div>
 
-    <div>
-      <label for="telefono">Teléfono</label>
-      <input type="tel" placeholder="Ej: +56 9 1234 5678" />
-    </div>
+            <div class="card-contacto">
+              <label for="email">Correo electrónico</label>
+              <input type="email" placeholder="correo@empresa.cl" />
+            </div>
 
-    <div>
-      <label for="email">Correo electrónico</label>
-      <input type="email" placeholder="correo@empresa.cl" />
-    </div>
+            <div class="card-contacto">
+              <label for="mensaje">Mensaje</label>
+              <textarea rows="5" placeholder="Describe tu requerimiento"></textarea>
+            </div>
 
-    <div>
-      <label for="mensaje">Mensaje</label>
-      <textarea rows="5" placeholder="Describe tu requerimiento"></textarea>
-    </div>
-
-    <button type="submit">Enviar solicitud</button>
-  </form>
+            <button type="submit">Enviar solicitud</button>
+          </form>
+      </div>
+    </section>
+  </article>
   <!--Fin contacto-->
 
   <!--Inicio footer-->
