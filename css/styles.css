@@ -222,5 +222,53 @@ section {
   font-weight: bold;
 }
 
-.card-v p {
+.article-servicios {
+  background-color: white;
+  height: 70rem;
 }
+
+.contenedor-superior-servicios h3 {
+  color: #FFAA00;
+  font-weight: bold;
+}
+
+.contenedor-superior-servicios h2 {
+  color: #003366;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+.contenedor-cards-servicios {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-servicios {
+  flex-basis: 31.5%;
+  border: solid;
+  height: 38rem;
+  box-sizing: border-box;
+  padding: 2rem;
+  padding-bottom: 0;
+  border-color: #D9D9D9;
+  border-radius: 2rem;
+  line-height: 2.5rem;
+}
+
+.card-servicios h3 {
+  color: #003366;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.simbolo-card-servicios {
+  background-color: #A3D9A5;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 1rem;
+}
+
