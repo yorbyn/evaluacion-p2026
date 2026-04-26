@@ -171,3 +171,56 @@ footer {
 .contendor-img {
   padding: 4rem;
 }
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 43rem;
+  background-color: #003366;
+}
+
+section {
+  flex-basis: 75%;
+}
+
+.contenedor-superior-valores p {
+  color: #FFAA00;
+  font-weight: bold;
+}
+
+.contenedor-superior-valores h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.contenedor-inferiores-valores {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-valores {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 31.5%;
+  border-radius: 2rem;
+}
+
+.card-v {
+  padding: 2rem;
+}
+
+.card-v span {
+  color: #FFAA00;
+  font-weight: bold;
+}
+
+.card-v h3 {
+  color: #003366;
+  font-weight: bold;
+}
+
+.card-v p {
+}
